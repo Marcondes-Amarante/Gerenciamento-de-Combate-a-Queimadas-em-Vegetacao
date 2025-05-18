@@ -1,4 +1,4 @@
-## Descrição
+# Sistema de simulação e gerenciamento de combate a incêndios
 
 O presente projeto consiste em uma algoritmo de simulação de incêndio representado como grafo que utiliza algoritmos clássicos de busca e caminho mínimo (BFS e dijkstra) para representação dos comportamentos de propagação do fogo e ação de brigadistas.
 
@@ -44,17 +44,5 @@ O programa será executado normalmente sem modificações, contudo, não impede 
     - Localize #quantidade de equipes por posto de brigada.
     - Na linha seguinte adicione apenas a quantidade de equipes.
 
-# Relatório:
-
-## Descrição das decisões de implementação
-
-## Análise dos resultados obtidos
-
-## Desafios encontrados
-
-Encontramos diversos desafios ao longo
-
-## Possíveis melhorias
-
-- implementação de instruções utilizando a biblioteca networkx para única e estritamente gerar a exibição do estado final do grafo pra cada simulação, atualmente já temos o arquivo desenhar que utiliza a biblioteca citada para gerar a visualização do grafo construído através do arquivo de entrada, mas não integramos ao escopo do programa principal
-- implementação de mecanismos de tratamentos de erro quanto a dados incorretos ou insuficientes passados no arquivo de entrada
+### Saída esperada:
+Arquivos txt. para cada vértice de vegetação, armazenados na pasta "logs", contendo o detalhamento e relatório final da simulação gerada a partir de cada um desse vértices.
