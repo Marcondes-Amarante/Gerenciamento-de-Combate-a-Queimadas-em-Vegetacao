@@ -3,7 +3,7 @@ from math import inf
 from vertice import caminhao
 
 ## LEGENDA -> 0 = PAI/CAMINHO
-##         -> 1 = DISTÂNCIA EM SALTOS
+##         -> 1 = CUSTOS
 
 
 def inicializar(G, ver):
@@ -210,7 +210,6 @@ def acaoBrigadistas(G, log):
 
     #ordenar focos com base na quantidade de vizinhos que possuem
     focos_ordenados = sorted(G.focos, key=lambda i: len(G.listas_adj[i]), reverse=True)
-    #focos_ordenados = sorted(G.vertices, key=lambda v: len(v.listas_adj), reverse = True)
 
     #filtrar lista de vértices do grafo para apenas os que são brigadas
     brigadas = [v for v in G.vertices if v.tipo == 'b']
