@@ -45,4 +45,6 @@ O programa será executado normalmente sem modificações, contudo, não impede 
     - Na linha seguinte adicione apenas a quantidade de equipes.
 
 ### Saída esperada:
-Arquivos txt. para cada vértice de vegetação, armazenados na pasta "logs", contendo o detalhamento e relatório final da simulação gerada a partir de cada um desse vértices.
+Arquivos txt. para cada vértice de vegetação, armazenados na pasta "logs", contendo o detalhamento e relatório final da simulação gerada a partir de cada um desse vértices, de modo que para acessar o que ocorreu na simulação dos mesmos basta apenas acessar o arquivo txt da pasta "logs" correspondente ao vértice desejado. 
+
+Ex: para ver o detalhamento da simulação gerada a partir do vértice 10 basta apenas abrir o arquivo txt "log_10", lá encontra-se listada todas as ações assumidas pelo fogo e brigadistas a cada turno da simulação iniciada a partir do mesmo.
